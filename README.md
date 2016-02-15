@@ -2,6 +2,16 @@
 
 Project for shared code between Unity client and Unity instance servers.
 
+## Setup
+
+To use this project you'll first need a couple of things:
+  - Visual Studio 2015
+  - Git for Windows
+  - Properly setup MSBuild 14 paths
+  
+Once you clone this reposistory you'll need to do the following before opening the .sln file:
+  - Run lib/BuildDepedencies.bat it will init submodules and compile dependencies.
+
 ##Licensing
 This project is licensed under the MIT license however you must adhere to the following license and terms dictated by Microsoft:
 
