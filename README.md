@@ -2,6 +2,8 @@
 
 Project for shared code between Unity client and Unity instance servers.
 
+Come chat: [![https://gitter.im/HaloUnity/HaloUnity](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/HaloUnity/HaloUnity?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+
 ## Setup
 
 To use this project you'll first need a couple of things:
