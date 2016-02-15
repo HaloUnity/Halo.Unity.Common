@@ -1,1 +1,1 @@
-xbuild ./Halo.Common.sln /p:DebugSymbols=False
+xbuild ./Halo.Unity.Common.sln /p:DebugSymbols=False
