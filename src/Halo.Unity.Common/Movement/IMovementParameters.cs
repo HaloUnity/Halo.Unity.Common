@@ -21,5 +21,5 @@ namespace Halo.Unity.Common
 		/// Desired movement speed.
 		/// </summary>
 		float MovementSpeed { get; }
-    }
+	}
 }

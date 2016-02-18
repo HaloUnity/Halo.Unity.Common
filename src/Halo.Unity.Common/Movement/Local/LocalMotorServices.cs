@@ -31,7 +31,7 @@ namespace Halo.Unity.Common
 		/// </summary>
 		[SerializeField]
 		private float movementSpeed;
-        public float MovementSpeed { get { return movementSpeed; } }
+		public float MovementSpeed { get { return movementSpeed; } }
 
 		/// <summary>
 		/// Transform to use for relative direction computation.
@@ -55,7 +55,7 @@ namespace Halo.Unity.Common
 		{
 			if (Input.GetKeyDown(JumpKey))
 				isJumpedRequested = true;
-        }
+		}
 
 		/// <summary>
 		/// Builds a normalized <see cref="Vector3"/> based on the input. Relative to the transform by default.
@@ -79,7 +79,7 @@ namespace Halo.Unity.Common
 		{
 			if (relativeToTransform)
 				return (transform.forward * vertical +
-				   transform.right * horizontal).normalized;
+					transform.right * horizontal).normalized;
 			else
 				return new Vector3(horizontal, 0f, vertical).normalized;
 		}
@@ -95,6 +95,6 @@ namespace Halo.Unity.Common
 				return !(isJumpedRequested = false);
 			else
 				return isJumpedRequested;
-        }
+		}
 	}
 }

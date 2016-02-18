@@ -27,5 +27,5 @@ namespace Halo.Unity.Common
 		/// </summary>
 		/// <returns>True if a jump has been requested.</returns>
 		bool TryConsumeJumpRequest();
-    }
+	}
 }

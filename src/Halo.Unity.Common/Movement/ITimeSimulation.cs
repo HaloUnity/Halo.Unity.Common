@@ -14,6 +14,6 @@ namespace Halo.Unity.Common
 		/// Simulate forward by the desired delta.
 		/// </summary>
 		/// <param name="dt">Time delta.</param>
-        void Simulate(float dt);
+		void Simulate(float dt);
 	}
 }
