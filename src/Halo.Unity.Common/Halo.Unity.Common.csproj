@@ -49,6 +49,7 @@
     <Compile Include="Movement\IMovementInput.cs" />
     <Compile Include="Movement\IMovementParameters.cs" />
     <Compile Include="Movement\ITimeSimulation.cs" />
+    <Compile Include="Movement\Local\LocalMotorServices.cs" />
     <Compile Include="Movement\PlayerMotor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

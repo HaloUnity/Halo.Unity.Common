@@ -41,13 +41,20 @@ namespace Halo.Unity.Common
 		/// </summary>
 		private Vector3 gravity;
 
-		void Start()
+		private void Start()
 		{
 			motorInput.ThrowIfNull();
 			movementParameters.ThrowIfNull();
 			characterController.ThrowIfNull();
 			directionService.ThrowIfNull();
         }
+
+		//Runs in a fixed timestep
+		private void FixedUpdate()
+		{
+			//Simulate the motor forward
+			Simulate(Time.fixedDeltaTime);
+		}
 
 		/// <summary>
 		/// Simulates the motor forward in time.
