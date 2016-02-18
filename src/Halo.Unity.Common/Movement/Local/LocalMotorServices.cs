@@ -44,7 +44,7 @@ namespace Halo.Unity.Common
 
 		private bool isJumpedRequested;
 
-		private void Awake()
+		private void Start()
 		{
 			RelativeTransform.ThrowIfNull();
 		}
