@@ -44,7 +44,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Debug\DebugExtensions.cs" />
+    <Compile Include="Extensions\DebugExtensions.cs" />
     <Compile Include="Movement\IMovementDirectionService.cs" />
     <Compile Include="Movement\IMovementInput.cs" />
     <Compile Include="Movement\IMovementParameters.cs" />
