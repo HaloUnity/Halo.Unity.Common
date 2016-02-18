@@ -30,16 +30,29 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="GladBehaviour.Common">
+      <HintPath>..\..\lib\Dependency Builds\GladBehaviour\DLLs\GladBehaviour.Common.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\lib\Static Dependencies\UnityEngine.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions\DebugExtensions.cs" />
+    <Compile Include="Movement\IMovementDirectionService.cs" />
+    <Compile Include="Movement\IMovementInput.cs" />
+    <Compile Include="Movement\IMovementParameters.cs" />
+    <Compile Include="Movement\ITimeSimulation.cs" />
+    <Compile Include="Movement\PlayerMotor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
