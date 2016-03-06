@@ -47,7 +47,7 @@ namespace Halo.Unity.Common
 			movementParameters.ThrowIfNull();
 			characterController.ThrowIfNull();
 			directionService.ThrowIfNull();
-        }
+		}
 
 		//Runs in a fixed timestep
 		private void FixedUpdate()
